@@ -42,6 +42,17 @@ public class Pratica1Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        /**
+         * Botao exercicio 2 chama `Exercicio2P1Activity`:
+         */
+        btExercicio2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Pratica1Activity.this, Exercicio2P1Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }

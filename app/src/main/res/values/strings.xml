@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Hello World Android</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_pratica1">Pratica1Activity</string>
-    <string name="title_activity_exercicio1">Exercicio1Activity</string>
+    <string name="action_settings">Nada aqui, vai embora</string>
+    <string name="title_activity_pratica1">Pratica 1</string>
+    <string name="title_activity_exercicio1">Exercicio 1 - Pratica 1</string>
+    <string name="title_activity_exercicio2_p1">Exercicio 2 - Pratica 1</string>
 </resources>
