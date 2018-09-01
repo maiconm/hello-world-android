@@ -22,6 +22,10 @@
         <activity
             android:name=".Pratica1Activity"
             android:label="@string/title_activity_pratica1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Exercicio1Activity"
+            android:label="@string/title_activity_exercicio1"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
