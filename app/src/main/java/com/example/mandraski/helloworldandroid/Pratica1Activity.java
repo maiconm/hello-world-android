@@ -53,6 +53,17 @@ public class Pratica1Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        /**
+         * Botao exercicio 3 chama `Exercicio3P1Activity`:
+         */
+        btExercicio3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Pratica1Activity.this, Exercicio3P1Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
