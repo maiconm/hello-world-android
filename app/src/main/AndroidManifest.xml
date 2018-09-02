@@ -22,6 +22,26 @@
         <activity
             android:name=".Pratica1Activity"
             android:label="@string/title_activity_pratica1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Exercicio1Activity"
+            android:label="@string/title_activity_exercicio1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Exercicio2P1Activity"
+            android:label="@string/title_activity_exercicio2_p1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Exercicio3P1Activity"
+            android:label="@string/title_activity_exercicio3_p1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Exercicio4P1Activity"
+            android:label="@string/title_activity_exercicio4_p1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Exercicio5P1Activity"
+            android:label="@string/title_activity_exercicio5_p1"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
