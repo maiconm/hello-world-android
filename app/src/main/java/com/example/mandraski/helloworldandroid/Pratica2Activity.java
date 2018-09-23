@@ -56,6 +56,19 @@ public class Pratica2Activity extends AppCompatActivity {
             }
         });
 
+        /**
+         * `onClickListener` que cria um `intent`.
+         * Intent que chama a tela do exercicio 3, com o metodo `startActivity`
+         *  passando o `intent`.
+         */
+        btExercicio3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Pratica2Activity.this, Exercicio3P2Activity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
     }

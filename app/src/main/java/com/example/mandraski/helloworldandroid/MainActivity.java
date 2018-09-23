@@ -30,8 +30,6 @@ public class MainActivity extends AppCompatActivity {
          */
         btPratica1 = (Button) findViewById(R.id.btPratica1);
         btPratica2 = (Button) findViewById(R.id.btPratica2);
-        btPratica3 = (Button) findViewById(R.id.btPratica3);
-        btPratica4 = (Button) findViewById(R.id.btPratica4);
 
         /**
          * `onClickListener` que cria um `intent`.
