@@ -42,6 +42,10 @@
         <activity
             android:name=".Exercicio5P1Activity"
             android:label="@string/title_activity_exercicio5_p1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pratica2Activity"
+            android:label="@string/title_activity_pratica2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
