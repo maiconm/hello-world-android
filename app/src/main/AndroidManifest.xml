@@ -46,6 +46,14 @@
         <activity
             android:name=".Pratica2Activity"
             android:label="@string/title_activity_pratica2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Exercicio1P2Activity"
+            android:label="@string/title_activity_exercicio1_p2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Exercicio1P2Tela2Activity"
+            android:label="@string/title_activity_exercicio1_p2_tela2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

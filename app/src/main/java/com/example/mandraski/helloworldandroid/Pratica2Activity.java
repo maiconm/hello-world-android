@@ -1,5 +1,6 @@
 package com.example.mandraski.helloworldandroid;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -28,6 +29,19 @@ public class Pratica2Activity extends AppCompatActivity {
         btExercicio1 = (Button) findViewById(R.id.btExercicio1Pratica2);
         btExercicio2 = (Button) findViewById(R.id.btExercicio2Pratica2);
         btExercicio3 = (Button) findViewById(R.id.btExercicio3Pratica2);
+
+        /**
+         * `onClickListener` que cria um `intent`.
+         * Intent que chama a tela da pratica 1, com o metodo `startActivity`
+         *  passando o `intent`.
+         */
+        btExercicio1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Pratica2Activity.this, Exercicio1P2Activity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
