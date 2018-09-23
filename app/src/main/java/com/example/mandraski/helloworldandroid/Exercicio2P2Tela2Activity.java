@@ -9,27 +9,36 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 
-public class Exercicio1P2Tela2Activity extends AppCompatActivity {
+public class Exercicio2P2Tela2Activity extends AppCompatActivity {
 
     /**
-     * Variaveis:
+     * Variaveis
      */
-    private TextView tvRecebe;
+    private TextView tvNome, tvRu, tvCurso;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exercicio1_p2_tela2);
+        setContentView(R.layout.activity_exercicio2_p2_tela2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         // link do componente com a variavel:
-        tvRecebe = (TextView) findViewById(R.id.tvRecebeEx1P2);
+        tvNome = (TextView) findViewById(R.id.tvPratica2Exe2Nome);
+        tvRu = (TextView) findViewById(R.id.tvPratica2Exe2Ru);
+        tvCurso = (TextView) findViewById(R.id.tvPratica2Exe2Curso);
+
         // pega conteudo do intent da outra tela, e seta na variavel
         // ligada ao componente:
         Intent i = getIntent();
-        String dados = i.getStringExtra("tvTela1");
-        tvRecebe.setText(dados);
+        String nome = i.getStringExtra("nome");
+        String ru = i.getStringExtra("ru");
+        String curso = i.getStringExtra("curso");
+
+        tvNome.setText(nome);
+        tvRu.setText(ru);
+        tvCurso.setText(curso);
+
     }
 
 }

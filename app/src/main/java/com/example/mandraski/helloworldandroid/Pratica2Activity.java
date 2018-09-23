@@ -32,7 +32,7 @@ public class Pratica2Activity extends AppCompatActivity {
 
         /**
          * `onClickListener` que cria um `intent`.
-         * Intent que chama a tela da pratica 1, com o metodo `startActivity`
+         * Intent que chama a tela do exercicio 1, com o metodo `startActivity`
          *  passando o `intent`.
          */
         btExercicio1.setOnClickListener(new View.OnClickListener() {
@@ -42,6 +42,21 @@ public class Pratica2Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        /**
+         * `onClickListener` que cria um `intent`.
+         * Intent que chama a tela do exercicio 2, com o metodo `startActivity`
+         *  passando o `intent`.
+         */
+        btExercicio2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Pratica2Activity.this, Exercicio2P2.class);
+                startActivity(intent);
+            }
+        });
+
+
 
     }
 
